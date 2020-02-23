@@ -1,24 +1,32 @@
 <!DOCTYPE html>
+
 <head>
     <title>
         Location of the College
     </title>
     <style>
-         body{
-                background-image: url("sky.jpg");
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-#map {
-    height: 400px;
-    width: 100%;
-}
+        body {
+            background-image: url("sky.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #map {
+            height: 400px;
+            width: 100%;
+        }
     </style>
 </head>
+
 <body>
     <p>Location of our college</p>
-    <div id="map"></div>
-    <script>
+    <div id="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d222.4527260817311!2d75.8112!3d26.864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdfc843bf9b6f869a!2sMalaviya%20National%20Institute%20of%20Technology%20Jaipur!5e0!3m2!1sen!2sin!4v1582470709236!5m2!1sen!2sin"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+    </div>
+    <!-- <script>
         function initmap(){
             var test={ lat:26.8640, lng:75.8112};
             var map =new google.maps.Map(document.getElementById('map'),{
@@ -30,11 +38,12 @@
                 map: map
             });
         }
-    </script>
-    <script async defer
+    </script> -->
+    <!-- <script async defer
     src=
     "https://maps.googleapis.com/maps/api/js?key=
     AIzaSyB2bXKNDezDf6YNVc-SauobynNHPo4RJb8&callback=initmap">
-</script>
+</script> -->
 </body>
+
 </html>
